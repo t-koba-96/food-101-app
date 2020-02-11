@@ -1,0 +1,6 @@
+venv
+venv/
+app-tkoba/
+*.ipynb
+.ipynb_checkpoints
+vgg_at.pth

@@ -1,0 +1,1 @@
+wget https://github.com/t-koba-96/food-101/releases/download/weight/vgg_at.pth

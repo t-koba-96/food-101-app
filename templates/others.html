@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food App</title>
+    <link rel="shortcut icon" href="../static/css/image/app.ico" type="image/vnd.microsoft.icon">
+    <!-- my_css読み込み -->
+    <link href="/static/css/for_others.css" type="text/css" rel="stylesheet">
+    <!-- bootstrap読み込み -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="/static/js/bootstrap.min.js"></script>
+  </head>
+  <header>
+     <nav>
+       <img src="/static/css/image/menu.png" alt="menu"  width="120" height="70" title="menu">
+       <ul id="navi">
+         <li><a href="/">Try Again</a></li>
+         <li><a href="https://t-koba-96.github.io/">My Profile Page</a></li>
+         <li><a href="https://github.com/t-koba-96/food-101"> GitHub Code for this App</a></li>
+         <li><a href="https://t-koba-96.github.io/section/contact/">Contact</a></li>
+       </ul>
+     </nav>
+  </header>
+  <body＞
+     <div class="body">
+       <div class="section">
+
+         <h1><p class="text-center">Result</h1></p>
+
+         <div class="items">
+            <div class="item">
+              <div class="item-img"><img src={{s_img}} alt="元画像" width=400px  title="元画像"></div>
+              <div class="item-body">
+                  <div class="item-title"></div>
+              </div>
+            </div><!-- /.item -->
+            <div class="item">
+                <div class="item-body">
+                  <h2><label for="InputImage">この画像は・・・ </label></h2>
+                  <h3><label for="InputImage">[1] {{cl_label_1}} </label></h3>
+                  <h3><label for="InputImage">[2]{{cl_label_2}} </label></h3>
+                  <h3><label for="InputImage">[3]{{cl_label_3}} </label></h3>
+                </div>
+            </div><!-- /.item -->
+         </div><!-- /.items -->
+       </div>
+     </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    background-image: url("image/other.jpg");
+    background-size: cover;
+    margin:0px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+	padding-left: 10;
+}
+
+#navi {
+    padding-top: 20px;
+     list-style: none;
+     margin: auto;
+     overflow: hidden;
+}
+ 
+#navi li {
+     width: 23%;
+     text-align: center;
+     background-color: #333;
+     float: left;
+     height: 50px;
+     line-height: 50px;
+     margin-right: 8px;
+}
+ 
+#navi li a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: bold;
+     padding: 20px;
+}
+
+.section{
+    padding-top: 75px;
+}
+
+.text-center{
+        text-decoration: underline;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+.item{
+  margin: 20px;
+}
+
+.item-title{
+    font-size: 1.5em;
+    text-align:center
+}
